@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A8E8"
+
+    >
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="79dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:text="   Enter the Name of the Book"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name of The Book"
+        android:id="@+id/bookName" />
+
+
+    <ImageButton
+        android:id="@+id/searchBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookName"
+        android:layout_toEndOf="@+id/bookName"
+
+        android:layout_toRightOf="@+id/bookName"
+
+        android:background="#00A8E8"
+        android:onClick="searchBooks"
+        android:src="@android:drawable/ic_menu_search" />
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchBook"
+        android:layout_marginTop="93dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/authorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleText"
+        android:layout_marginTop="29dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/isbnNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookName"
+        android:layout_alignLeft="@+id/bookName"
+        android:layout_alignStart="@+id/bookName"
+        android:src="@android:drawable/menuitem_background" />
+
+    <TextView
+        android:id="@+id/bookDescription"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="12dp"
+
+        android:layout_below="@+id/authorText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="17dp"
+        android:background="#00A8E8"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+</RelativeLayout>

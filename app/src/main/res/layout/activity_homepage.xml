@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background ="#00A8E8">
+
+
+        <FrameLayout
+            android:id ="@+id/new_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background ="@drawable/blue_button">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+                android:layout_height="272dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/viewbook" />
+
+            <Button
+                android:id="@+id/divein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/round_button"
+                android:text="      Dive in       "
+
+                android:textColor="#ffffff" />
+        </FrameLayout>
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#ffffff"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:id ="@+id/nav_view"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity ="start"
+        android:background="#007EA7"
+        app:headerLayout="@layout/navigation_header"
+        >
+
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

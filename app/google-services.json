@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "703733469938",
+    "firebase_url": "https://bookupp-a5409.firebaseio.com",
+    "project_id": "bookupp-a5409",
+    "storage_bucket": "bookupp-a5409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703733469938:android:30868c9251a0c042",
+        "android_client_info": {
+          "package_name": "com.example.amitgyawali.bookupp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703733469938-3rhpte49lmoj623tnbakqpn3mpho8tq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amitgyawali.bookupp",
+            "certificate_hash": "9c43899a10bf9aa9c4227255783b9f492a9ae7df"
+          }
+        },
+        {
+          "client_id": "703733469938-kr2is8jh2ahc4bhp0bf3dqtb2n11mrov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWzG7UiPcBn4tjEMRl2XAB7-SdZSQNz8o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703733469938-kr2is8jh2ahc4bhp0bf3dqtb2n11mrov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

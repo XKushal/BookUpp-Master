@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_button"
+    tools:context="com.example.amitgyawali.bookupp.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="389dp"
+        app:srcCompat="@drawable/bookup" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:background="@drawable/white_color"
+        android:ems="10"
+        android:hint="      Enter Emal Address"
+        android:inputType="textEmailAddress"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/white_color"
+        android:ems="10"
+        android:hint="         Password"
+        android:inputType="textPassword"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/checkboxPaswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Show Password   " />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkboxPaswd"
+        android:layout_alignStart="@+id/checkboxPaswd"
+        android:layout_below="@+id/checkboxPaswd"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_button"
+        android:text="Login"
+        android:textColor="#ffffff" />
+
+
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginButton"
+        android:layout_alignStart="@+id/loginButton"
+        android:layout_alignTop="@+id/rememberBox"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/round_button"
+        android:text="sign up"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/rememberBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text=" No Account yet? "
+        android:textSize="30sp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "417024881680",
+    "firebase_url": "https://chinesephoenix-a05e1.firebaseio.com",
+    "project_id": "chinesephoenix-a05e1",
+    "storage_bucket": "chinesephoenix-a05e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417024881680:android:b19f2e9b4d588cdf",
+        "android_client_info": {
+          "package_name": "com.example.amitgyawali.chinesephoenix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417024881680-8iqicpl5fuj5aghv6fgg03s0qg3m1ti5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amitgyawali.chinesephoenix",
+            "certificate_hash": "9c43899a10bf9aa9c4227255783b9f492a9ae7df"
+          }
+        },
+        {
+          "client_id": "417024881680-iserkip5b1pn909q6jq0e5mcf186oe4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA57GyTFLAESzcwwl8glP8O6Cq9GB3jnyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417024881680-iserkip5b1pn909q6jq0e5mcf186oe4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

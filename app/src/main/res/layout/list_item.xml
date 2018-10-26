@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_button">
+    <ImageView
+        android:id="@+id/book_cover_image"
+        android:src="@drawable/no_image"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_3sdp"/>
+
+    <TextView
+        android:id="@+id/book_title_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/book_cover_image"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"/>
+
+
+    <TextView
+        android:id="@+id/book_location_entry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/book_title_entry"
+        android:layout_toEndOf="@+id/book_title_entry"
+        android:layout_toRightOf="@+id/book_title_entry"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
